@@ -1,0 +1,33 @@
+Array
+(
+    [0] => Array
+        (
+            [href] => https://detali.org.ua/uk/66-zapchasti-dlya-instrumenta
+            [text_link] =>   Запчастини для інструменту   
+        )
+
+    [1] => Array
+        (
+            [href] => https://detali.org.ua/uk/102-zapchasti-dlya-betonomeschalki
+            [text_link] => Запчастини до бетономішалки
+        )
+
+    [2] => Array
+        (
+            [href] => https://detali.org.ua/uk/104-zapchasti-dlya-bolgarki
+            [text_link] => Запчастини до болгарки
+        )
+        
+        
+        
+        
+        key-----Array
+v1-----href
+v2-----https://detali.org.ua/uk/1272-poyasi-fartuhi-kischen-dlya-nstrumentv
+v1-----text_link
+v2-----Пояси, фартухи, кишені для інструментів
+Array
+(
+    [href] => https://detali.org.ua/uk/1272-poyasi-fartuhi-kischen-dlya-nstrumentv
+    [text_link] => Пояси, фартухи, кишені для інструментів
+)
