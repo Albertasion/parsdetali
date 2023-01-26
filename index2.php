@@ -42,17 +42,16 @@ format($src_menu_formated);
 //GRANT ALL PRIVILEGES ON detali.* TO 'parseradmin'@'localhost';
 //CREATE TABLE `detali`.`detalimenu` ( `id` INT NOT NULL AUTO_INCREMENT , `menulinks` TEXT NOT NULL , 'menulinkstext` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE = InnoDB;
 
-//Заносимо в базу основни посилання
-foreach ($src_menu_formated as $key) {
-  echo 'key-----'.$key . '<br>';
-  foreach ($key as $v1=>$v2) {
-    echo 'v1-----'. $v1.'<br>';
-    echo 'v2-----'. $v2.'<br>';
-    
-}
-  format($key);
-//     $query = "INSERT INTO detalimenu (id, menulinks) VALUES (NULL, '$link')";
-//     $result = mysq li_query($conn, $query);
+foreach ($src_menu as $k=>$v) {
+  foreach ($v as $k2=>$v2) {
+   
+  
+  }
+  $href_item = $src_menu[$k]["href"];
+ $text_link_item = $src_menu[$k]["text_link"];
+
+$query = "INSERT INTO detalimenu (id, menulinks, menulinkstext) VALUES (NULL, '$href_item', '$text_link_item')";
+$result = mysqli_query($conn, $query);
 }
 
 
